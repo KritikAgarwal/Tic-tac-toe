@@ -1,0 +1,7 @@
+<button class="xo" *ngIf="!value">{{ value }}</button>
+<button class="xo" status="success" *ngIf="value == 'X'">
+  {{ value }}
+</button>
+<button class="xo" status="info" *ngIf="value == 'O'">
+  {{ value }}
+</button>
